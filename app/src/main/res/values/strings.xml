@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Classroom</string>
+    <string name="title_activity_join_class">JoinClass</string>
 </resources>

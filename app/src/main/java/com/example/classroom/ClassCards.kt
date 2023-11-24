@@ -78,9 +78,6 @@ fun ClassCards(
                         Text(text = description, style = MaterialTheme.typography.titleMedium)
                     }
                 }
-
-
-
             }
         }
 
