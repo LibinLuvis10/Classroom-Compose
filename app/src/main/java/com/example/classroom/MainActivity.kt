@@ -229,7 +229,10 @@ class MainActivity : ComponentActivity() {
                                             Text(text = "Join Class", style = MaterialTheme.typography.titleMedium,color=Color.Black
                                             )
                                         }
-                                        TextButton(onClick = { /*TODO*/ }) {
+                                        TextButton(onClick = {
+                                            val intent = Intent(this@MainActivity,CreateClass::class.java)
+                                            startActivity(intent)
+                                        }) {
                                             Text(text = "Create Class", style = MaterialTheme.typography.titleMedium,color=Color.Black)
                                         }
                                     }
