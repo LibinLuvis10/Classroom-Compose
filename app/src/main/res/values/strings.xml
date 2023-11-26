@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Classroom</string>
     <string name="title_activity_join_class">JoinClass</string>
+    <string name="title_activity_create_class">CreateClass</string>
 </resources>
